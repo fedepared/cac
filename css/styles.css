@@ -4,6 +4,10 @@
     padding:0;
 }
 
+html{
+    font-size:62,5%;
+}
+
 
 /*MAIN*/
 #main_header{
@@ -57,18 +61,54 @@
 }
 
 #container h1{
-    font-size: xx-large;
+    font-size: 3rem;
 }
 
-#shop_button{
+.shop_button{
     width:211px;
     height:47px;
     border-radius:30px;
     font-size:large;
     font-weight: bold;
+    border:white;
 }
 
+.shop_button:hover{
+    background-color:#30343F;
+    color:white;
+}
 
+.item_button{
+    width:350px;
+    height:47px;
+    border-radius:30px;
+    font-size:1.5rem;
+    font-weight: bold;
+    border:white;
+    background-color:#30343F;
+    color:white;
+}
+
+.item_button:hover{
+    color:#30343F;
+    background-color:white;
+}
+
+.sample_container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sample_container h1{
+    font-size:2.5rem;
+}
+
+.description_container{
+    border-bottom:3px solid #FF3333;
+    margin-bottom:20px;
+    padding-bottom:20px;
+}
 /*Footer*/
 footer{
     position:fixed;
